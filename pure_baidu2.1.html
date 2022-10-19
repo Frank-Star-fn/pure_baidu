@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="images/bdicon.png">
+    <link rel="stylesheet" type="text/css" href="pure_baidu2.1.css">
+    <meta charset="utf-8">
+    <title>百度</title>
+</head>
+
+<!-- document.getElementById('wd').focus()获得焦点 -->
+<body onload="document.getElementById('wd').focus();">
+    <div class="text-center">
+        <img src="images/bd.png" style="width: 300px; display: inline-block;">
+    </div>
+    <br><br>
+
+    <form action="https://www.baidu.com/s?" method="get">
+        <div class="text-center">
+            <div class="div-inline">
+                <input type="text" name="wd" id="wd" class="input-lg" autocomplete="off" required="required">
+            </div>
+            <div class="div-inline">
+                <input type="submit" id="subBtn" class="input-lg" value="百度一下">
+            </div>
+        </div>
+    </form> 
+</body> 
+
+</html>
