@@ -6,10 +6,12 @@
 }
 
 #wd {
-    height: 46px;
+    border-radius: 6px;
+    height: 44px;
     width: 400px;
-    font-size: 14px;
-    border: 1px solid #ccc;
+    padding: 1px 15px;
+    font-size: 18px;
+    border: 2px solid #ccc; 
     float: left; 
 } 
 
